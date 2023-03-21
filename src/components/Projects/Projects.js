@@ -20,19 +20,19 @@ function Projects() {
         <p style={{ color: "white" }}>
         Aqui estão alguns projetos em que trabalhei recentemente.
         </p>
-        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={biblio}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/Cheathh/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Biblioteca AERT3"
+              description="Foi um projeto desenvolvido no ambito de integrar a Biblioteca da Escola via Online (Pandemia) , na qual o aluno criava sua conta(login system) e preenchia os requesitos necessarios(todos os dados eramn guardados na DataBase da Escola).Os alunos conseguiam requesitar livros apartir do Site da Biblioteca e tinham tempo estimado para entrega(15 dias) . O Projeto foi abandonado por incompatibilidade com o sistema da Escola .(Projeto Antigo)"
+              ghLink="https://github.com/Cheathh/Biblioteca"
+              demoLink="https://biblioteca-porject.000webhostapp.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -86,8 +86,8 @@ function Projects() {
               ghLink="https://github.com/Cheathh/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
-        </Row> */}
+          </Col> */}
+        </Row>
       </Container>
     </Container>
   );
